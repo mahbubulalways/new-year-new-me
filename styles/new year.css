@@ -14,11 +14,9 @@ padding-top:  165px;
  text-align: right;
  margin-left: 800px;
  
-
 }
 .banner-title{
 font-size: 60px;
-
 
 }
 .banner-btn{
@@ -34,7 +32,7 @@ margin-bottom: 150px;
 font-size: 18px;
 font-weight: 400;
 }
-                            /* section1 */
+                            /* section 1 */
 .section1-style{
 margin-top: 100px;
 display: flex;
@@ -60,10 +58,6 @@ font-weight: bold;
 
 }
 
-   
-   
-
-   
    .img-style{
 margin-left: 200px;
 
@@ -96,28 +90,59 @@ justify-content: center;
 
     text-align: center;
 }
-        /* section 3 */
-.section3{
-   background:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    border-radius: 8px,url(../images/watch.png);
+          /* section 3 */
 
-margin: 120px 200px;
-
+.section3-style{
+background-color:beige;
+border-radius: 10px;
+margin-top: 120px;
+margin-left: 200px;
+ margin-right:200px ;
 }
 .section3-info{
+    padding: 30px;
+}
+.section3-title{
+    
+text-align: center;
+font-size: 35px;
+ }
+    
+.section3-description{
+margin-top: 20px;
+text-align: center;
+color: black;
+
+}
+
+.section3-about{
+display: flex;
+gap: 40px;
+justify-content: center;
+padding: 20px;
+}
+
+
+        /* section 4*/
+.section4{ 
+    
+ background: linear-gradient(90deg, #F15B22 0%, rgba(18, 18, 18, 0) 100%),url(../images/watch.png);
+ border-radius: 10px;
+
+ margin: 120px 200px;
+
+}
+.section4-info{
 padding-top: 50px;
 padding-left: 50px;
 width: 400px;
-
-
-
 }
-.section3-title{
+.section4-title{
     font-size: 40px;
     font-weight:bolder;
     color: #FFFFFF;
 }
-.section3-btn{
+.section4-btn{
 margin-top: 25;
 margin-bottom: 60px;
 height: 55px;
